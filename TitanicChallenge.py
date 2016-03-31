@@ -2,7 +2,7 @@
 # @Author: dutrasr
 # @Date:   2016-03-23 00:27:51
 # @Last Modified by:   dutrasr
-# @Last Modified time: 2016-03-31 11:11:32
+# @Last Modified time: 2016-03-31 11:27:36
 
 #########################################################################################
 # Titanic: Machine Learning from Disaster
@@ -86,6 +86,8 @@ def __main__():
 
 	data = np.array(data)
 	##
+
+	passengerAboard, womenAboard, menAboard, womenStats, menStats = loadFile(data)			# Aquires the basic data to analise the train.csv file
 	
 ###
 __main__()
